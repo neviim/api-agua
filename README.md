@@ -1,8 +1,7 @@
 # Controle de consumo de agua
 
-  Api para cadastrar o consumo de M3 de agua do relogio de agua
-  com algumas informaçoes adicionais. 
-
+  Api para cadastrar o consumo em M3 do relogio de agua,
+  com algumas informações especificas.
 
 # Ambiente nodesjs
 
@@ -15,7 +14,7 @@
   yarn add @nestjs/mongoose 
   yarn add @types/mongoose --dev
 
-  # Ambiente nestjs 
+  # Ambiente nestjs
 
     npm i -g @nestjs/cli
     nest new apiagua
@@ -25,7 +24,6 @@
     yarn run start
     yarn run start:dev
 
-
   # Contruindo uma API, consumo de agua
 
     nest g controller tasks
@@ -33,11 +31,9 @@
     nest g module tasks
     nest g class tasks/shared/task
 
-
   # MongoDb
 
     Usando database: consumoagua
-
 
 ## Installation
 
