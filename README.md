@@ -1,18 +1,18 @@
-# Controle de consumo de agua
+## Controle de consumo de agua
 
   Api para cadastrar o consumo em M3 do relogio de agua,
   com algumas informações especificas.
 
-# Ambiente nodesjs
+  # Ambiente nodesjs
 
-  mkdir nodesProjetos
-  asdf list nodejs
-  asdf local nodejs 12.18.2
-  node -v
+    mkdir nodesProjetos
+    asdf list nodejs
+    asdf local nodejs 12.18.2
+    node -v
 
-  yarn add mongoose
-  yarn add @nestjs/mongoose 
-  yarn add @types/mongoose --dev
+    yarn add mongoose
+    yarn add @nestjs/mongoose 
+    yarn add @types/mongoose --dev
 
   # Ambiente nestjs
 
@@ -44,7 +44,6 @@ yarn install
 ## Running the app
 
 ```bash
-
 # development
 yarn run start
 
