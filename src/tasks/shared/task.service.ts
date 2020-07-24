@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import { Injectable } from '@nestjs/common';
 import { Task } from './task';
 import { InjectModel } from '@nestjs/mongoose';
@@ -11,7 +12,7 @@ export class TaskService {
     async getAll() {
        return await this.taskModel.find().exec();
     }
-
+        
     async getById(id: string) {
         return await this.taskModel.findById(id).exec();
     }
@@ -29,6 +30,5 @@ export class TaskService {
     async delete(id: string) {
         return await this.taskModel.deleteOne({ _id: id }).exec();
     }
-
 
 }
