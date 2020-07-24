@@ -26,7 +26,7 @@
       $ yarn run start:dev
 
 
-  # Contruindo um To-Do
+  # Contruindo uma API Consumo de agua
 
     $ nest g controller tasks
     $ nest g provider tasks/shared/task.service
