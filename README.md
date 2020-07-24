@@ -4,6 +4,7 @@ Api para cadastrar o consumo em M3 do relogio de agua, com algumas informações
 
 ## Ambiente nodesjs
 
+  ```bash
   mkdir nodesProjetos
   asdf list nodejs
   asdf local nodejs 12.18.2
@@ -12,9 +13,11 @@ Api para cadastrar o consumo em M3 do relogio de agua, com algumas informações
   yarn add mongoose
   yarn add @nestjs/mongoose
   yarn add @types/mongoose --dev
+  ```
 
 ## Ambiente nestjs
 
+  ```bash
   npm i -g @nestjs/cli
   nest new apiagua
 
@@ -22,13 +25,16 @@ Api para cadastrar o consumo em M3 do relogio de agua, com algumas informações
 
   yarn run start
   yarn run start:dev
+  ```
 
 ## Contruindo uma API, consumo de agua
 
+  ```bash
   nest g controller tasks
   nest g provider tasks/shared/task.service
   nest g module tasks
   nest g class tasks/shared/task
+  ```
 
 ## MongoDb
 
