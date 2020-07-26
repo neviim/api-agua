@@ -2,6 +2,18 @@
 
 Api para cadastrar o consumo em M3 do relogio de agua, com algumas informações especificas.
 
+## Ambiente yarn
+
+```bash
+# repositorio yarn
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+
+sudo apt update
+sudo apt install yarn
+yarn --version
+```
+
 ## Ambiente nodesjs
 
   ```bash
@@ -18,6 +30,8 @@ Api para cadastrar o consumo em M3 do relogio de agua, com algumas informações
 ## Ambiente nestjs
 
   ```bash
+  npm i --save @nestjs/core @nestjs/common rxjs reflect-metadata
+
   npm i -g @nestjs/cli
   nest new apiagua
 
