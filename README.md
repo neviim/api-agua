@@ -72,6 +72,15 @@ yarn run test:e2e
 yarn run test:cov
 ```
 
+
+## Utilizando PM2
+
+```bash
+# pm2
+pm2 start ~/producao/api-agua/dist/src/main.js --watch
+```
+
+
 ## Stay in touch
 
 - Author  - [Neviim Jads](https://)
